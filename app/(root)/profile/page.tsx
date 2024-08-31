@@ -34,6 +34,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
         </div>
       </section>
 
+    {/*  */}
       <section className="wrapper my-8">
         <Collection
           data={orderedEvents}
