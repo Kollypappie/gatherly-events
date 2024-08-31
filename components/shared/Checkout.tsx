@@ -20,6 +20,8 @@ const Checkout = ({ event, userId }: { event: IEvent, userId: string }) => {
     }
   }, []);
 
+
+  // Checkout for QR-code later
   const onCheckout = async () => {
     const order = {
       eventTitle: event.title,
